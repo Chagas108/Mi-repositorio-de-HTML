@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html Una historia con estilo"> <!-- Esto sirve para que se pueda buscar la palabra clave relacionada con el contenido de la página web-->
+    <meta name="author" content="Elena">
+    <title>Mi historia</title>
+    <style> /*El estilo va después del título en este caso. Por lo que se comienza con CSS.*/
+        h1,h2,h3 { /* Esta parte de aqui sirve para darle color a los encabezados, y darle forma al texto, (centrado) */
+            color:rgb(0, 35, 117);
+            text-align: center;
+        } 
+        div { /*Aquí tenemos espacio del margen, para que no se quede la letra pegada a los márgenes */
+            margin-left: 40%;}
+        .portada { /*El estilo de la portada*/
+            text-align: center;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-bottom: 10px;
+            border: 3px solid rgb(252, 123, 37) ;
+            border-radius:30px;
+            }
+        .parte { /*El estilo de la parte donde irá el texto escrito*/
+            background-color:rgb(93, 133, 253);
+            margin-left: 20%;
+            margin-right: 15%;
+            padding: 30px; /*Esto es para definir el espacio entre el texto y un elemento (imagen)*/
+            border: 3px solid rgb(252, 123, 37) ;
+            border-radius:30px;
+        }
+        .enlace {text-align: right;}
+
+    </style>
+</head>
+<body>
+    <div class="portada"> <!--Esto aplica los estilos, por ejemplo, aquí a la portada.-->
+        <h1 id="inicio"> El priorato del naranjo</h1>
+        <img src="https://imagessl8.casadellibro.com/a/l/s7/38/9788417541538.webp" width="400px"> <!--Ruta de la imagen-->
+        <h4>Autora del libro: Samantha Shannon</h4>
+        <p> Una historia épica sobre un mundo dividido por el miedo a los dragones. Dos reinos enfrentados, una reina sin heredero, una asesina entrenada en secreto y una maga que desafía las normas.</p>
+    </div> 
+    <div> Indice: &nbsp; <!--Esto es un espacio en blanco, se utiliza para separar visualmente los elementos-->
+        <a href="#p1">Primera parte</a>&nbsp;&nbsp;&nbsp;
+        <a href="#p2">Segunda parte</a>&nbsp;&nbsp;&nbsp;
+        <a href="#p3">Tercera parte</a>&nbsp;&nbsp;&nbsp; <!--Enlace interno para llevar al ususario al elemento con la id correspondiente. Esta parte está definida arriba con CSS-->
+    </div>
+    <h2 id="p1"> Comienzo de la historia</h2>
+    <div class="parte">
+        <img src="https://ih1.redbubble.net/image.5861239975.4347/fposter,small,wall_texture,square_product,600x600.jpg" width="80px" sytle="float: right;"> 
+        <span style="font-size: 40px;"></span> <!--<span> sirve para aplicar estilos o clases a una parte específica del texto.-->
+        <P>La Casa de Berethnet ha gobernado Inys durante mil años. Aún sin casar, la reina Sabran IX debe concebir una hija para proteger a su reino de la destrucción. Pero los asesinos cada vez están más cerca.</P>
+        <P>Ead Duryan es una intrusa en la corte. A pesar de que se ha posicionado como dama de compañía, es leal a una sociedad oculta de magos. Ead vigila a Sabran, protegiéndola en secreto con magia prohibida.</P>
+    </div>
+    <hr> <!--Se utiliza para introducir una línea horizontal-->
+    <h2 id="p2"> Continuación </h2>
+    <div class="parte">
+        <img src="https://ih1.redbubble.net/image.5861239975.4347/fposter,small,wall_texture,square_product,600x600.jpg" width="80px" style="float: right;">
+        <span style="font-size: 40px;"></span>
+        <p>Al otro lado del mar oscuro, Tane ha entrenado toda su vida para ser una jinete de dragón, pero se ve obligada a tomar una decisión que podría romper su vida en añicos.</p>
+        <div class="enlace"><a href="#inicio">Volver</a></div>
+    </div>
+    <hr> <h2 id="p3"> Por último </h2>
+    <div class="parte">
+        <img src="https://ih1.redbubble.net/image.5861239975.4347/fposter,small,wall_texture,square_product,600x600.jpg" width="80px" style="float: left;">
+        <span style="font-size: 40px;"></span>
+        <p>Mientras tanto, el Este y el Oeste siguen divididos. Cada región tiene una religión diferente basada en los sucesos acaecidos mucho tiempo atrás. Los que adoran a los dragones, los que los detestan y quienes adoran al Sin Nombre aparentemente nunca se pondrán de acuerdo.</p>
+        <p>Y las fuerzas del caos se despiertan de su letargo y parecen estar a punto de llegar.</p>
+        <div class="enlace"><a href="#inicio">Volver</a></div>
+    </div>
+
+</body>
+</html>
