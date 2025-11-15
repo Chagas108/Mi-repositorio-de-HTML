@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario</title>
+    <style>
+        table {width: 60%;
+            border: 5px solid rgb(0, 0, 0);
+            margin-left: 20%;
+        }
+        th{background-color: rgb(156, 199, 238);} 
+        td{border: 2px solid black;}
+
+    </style>
+</head>
+<body>
+    <table style="width: 60%;">
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td>15:15</td> <!--Para que los en los recuadros se unan la misma palabra, se usa rowspan-->
+            <td rowspan = "3" style="text-align: center; background-color: rgb(236, 134, 71);">SI</td> 
+            <td style="text-align: center; background-color: rgb(245, 117, 191)">DA</td>
+            <td rowspan = "2" style="text-align: center;background-color:rgb(173, 139, 104)">BD</td>
+            <td rowspan = "2" style="text-align: center; background-color: rgb(236, 134, 71)">SI</td>
+            <td style="text-align: center; background-color: rgb(236, 233, 71)">IPE</td>
+        </tr>
+         <tr>
+            <td>16:15</td>
+           
+            <td rowspan = "2" style="text-align: center; background-color: rgb(236, 233, 71)">IPE</td>
+            <td rowspan = "2" style="text-align: center; background-color: rgb(92, 218, 253)">PR</td>
+        </tr>
+         <tr>
+            <td>17:15</td>
+            
+            <td style="text-align: center; background-color: rgb(92, 218, 253)">PR</td>
+            <td style="text-align: center; background-color:rgb(173, 139, 104)">BD</td>
+            
+        </tr>
+         <tr>
+            <td>18:15</td> <!--Colspan es para unir una misma fila, mientras que rowspan es para unir elementos de una misma columna-->
+            <td colspan="5" style="text-align: center;">R E C R E O</td> 
+        </tr>
+         <tr>
+            <td>18:30</td>
+            <td rowspan = "3" style="text-align: center; background-color: rgb(246, 49, 43)">LM</td>
+            <td style="text-align: center; background-color: rgb(95, 253, 92)">SA</td>
+            <td style="text-align: center; background-color: rgb(92, 218, 253)">PR</td>
+            <td style="text-align: center; background-color:rgb(173, 139, 104)">BD</td>
+            <td style="text-align: center; background-color: rgb(169, 103, 227)">ED</td>
+        </tr>
+         <tr>
+            <td>19:30</td>
+            
+            <td rowspan = "2" style="text-align: center; background-color: rgb(92, 218, 253)">PR</td>
+            <td rowspan = "2" style="text-align: center; background-color: rgb(169, 103, 227)">ED</td>
+            <td rowspan = "2" style="text-align: center; background-color: rgb(92, 218, 253)">PR</td>
+            <td rowspan = "2" style="text-align: center; background-color:rgb(173, 139, 104)">BD</td>
+        </tr>
+         <tr>
+            <td>20:30</td>
+
+        </tr>
+    </table>
+</body>
+</html>
