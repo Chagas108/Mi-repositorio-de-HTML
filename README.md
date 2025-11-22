@@ -1,7 +1,7 @@
 <img width="6912" height="3456" alt="HTML5" src="https://github.com/user-attachments/assets/b4adf1c2-cfff-427e-97bd-c1433f26e618" />
 
 # :globe_with_meridians: ¡Bienvenido a mi repositorio de HTML! :globe_with_meridians:
-## Sobre mí
+## :octocat: Sobre mí
 
 Soy estudiante de DAM y estoy dando mis primeros pasos en el desarrollo web. En este repositorio voy subiendo mis prácticas, ejercicios y pequeñas páginas hechas en HTML mientras aprendo cómo funciona la base de la web.
 
